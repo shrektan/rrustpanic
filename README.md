@@ -8,3 +8,7 @@ A test package to check that the panic in Rust gets properly handdled:
 ## How to start
 
 You need to change the src/rust/Cargo.toml, if you are going to use the local version of "extendr-api" cargo library.
+
+## Reference
+
+* The discussion on extendr: https://github.com/extendr/extendr/issues/278#issuecomment-1024944619
