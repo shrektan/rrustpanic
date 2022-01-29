@@ -7,7 +7,9 @@ A test package to check that the panic in Rust gets properly handdled:
 
 ## How to start
 
-You need to change the src/rust/Cargo.toml, if you are going to use the local version of "extendr-api" cargo library.
+1. You need to change the src/rust/Cargo.toml, where must change th local "extendr-api" cargo library path.
+2. (Probably need, terminal) `cd src/rust` then `cargo clean` to force the cargo library to rebuild.
+3. (R) Run `rextendr::document()` then `run(0L)` for the non-throwing code, `run(0.0)` fo the throwing code.
 
 ## Reference
 
